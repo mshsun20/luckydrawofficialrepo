@@ -1,0 +1,133 @@
+
+:root {
+  --theme: #245664;
+  --theme-light: #70b7cb;
+  --white: #e3f1f4;
+  --black: #0b1a1e;
+}
+
+
+.topper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: var(--black);
+  padding: 0.5rem 3.5rem;
+  font-size: 1.5rem;
+}
+.tollfree {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+.tollfree .tinf {
+color: var(--theme);
+font-weight: bold;
+font-style: italic;
+text-decoration: overline;
+}
+.tollfree .navlnk {
+color: var(--theme);
+font-style: oblique;
+}
+.topper .navlnk:hover {
+color: var(--theme-light);
+font-style: normal;
+}
+.wrapper {
+  background-color: var(--white);
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+}
+.navicon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  font-size: 1.6rem;
+}
+.navlnk {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--theme);
+  font-weight: 500;
+}
+.navlnk img {
+  width: 90%;
+}
+.brndlbl {
+  width: 10%;
+  font-size: 1.4rem;
+}
+.navmenu {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 60%;
+  font-size: 1.6rem;
+}
+.mainmenu {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+.hambergermenu {
+  display: none;
+}
+.container {
+  min-height: 70vh;
+  padding: 3rem 6rem;
+  font-size: 2rem;
+}
+.footer {
+  background-color: var(--theme);
+  min-height: 10vh;
+}
+
+
+
+/* Media = Tablet */
+@media (max-width: 1024px) {
+  .wrapper {
+    padding: 0;
+  }
+  .container {
+    padding: 3rem 3rem;
+  }
+}
+
+
+
+/* Media = Mobile */
+@media (max-width: 768px) {
+  .header {
+    padding: 0.5rem 3rem;
+  }
+  .navicon {
+    width: 30%;
+  }
+  .brndlbl {
+    width: 20%;
+  }
+  .navmenu {
+    width: 20%;
+  }
+  .mainmenu {
+    display: none;
+  }
+  .hambergermenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container {
+    padding: 3rem 0.5rem;
+  }
+}

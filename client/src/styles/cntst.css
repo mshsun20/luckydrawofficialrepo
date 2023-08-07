@@ -1,0 +1,41 @@
+
+.main {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.cntsthd {
+    width: 100%;
+    padding: 2rem;
+    font-size: 4.5rem;
+    font-weight: 100;
+    letter-spacing: 1rem;
+    text-align: center;
+}
+.cntstcrd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 2rem;
+}
+.cntsttbl {
+    border-collapse: collapse;
+}
+.cntsttbl, .cntsttbl th, .cntsttbl td {
+    border: 0.1rem solid #3f7869;
+}
+.cntsttbl th {
+    background-color: #3f7869;
+    padding: 0.5rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+    text-align: center;
+}
+.cntsttbl td {
+    padding: 0.5rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-align: center;
+}

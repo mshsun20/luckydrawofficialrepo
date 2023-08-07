@@ -1,0 +1,293 @@
+
+.headr {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-flow: row wrap;
+    padding: 1rem 2rem 2rem 2rem;
+}
+.smlgo, .selgo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+.smlgo img, .selgo img {
+    width: 60%;
+}
+.hdng {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+}
+.cntst {
+    font-size: 1.8rem;
+}
+.timr {
+    color: var(--theme);
+    font-size: 1.8rem;
+}
+.rcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    min-height: 70rem;
+    padding: 2rem;
+}
+.sidecanvas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #408080;
+    width: 20%;
+    height: 50rem;
+    padding: 1rem;
+}
+.postera {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #804040;
+    width: 20rem;
+    height: 20rem;
+}
+.posterb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #808040;
+    width: 20rem;
+    height: 30rem;
+}
+.postera img, .posterb img {
+    width: 100%;
+    height: 100%;
+}
+
+.maindv {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    background-color: darkslateblue;
+    width: 52%;
+    height: 50rem;
+    padding: 1rem;
+}
+.ticker {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 8%;
+}
+/* slot machine styles */
+.game {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 92%;
+}
+.slotm {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    /* background-color: #400080; */
+    width: auto;
+    height: auto;
+    padding: 3rem;
+    color: #f8d3d5;
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 1rem;
+    border-radius: 1rem;
+    /* box-shadow: 0.1rem 0.1rem 1.5rem #17002e inset, -0.1rem 0.1rem 1.5rem #17002e inset, -0.1rem -0.1rem 1.5rem #17002e inset, 0.1rem -0.1rem 1.5rem #17002e inset; */
+}
+/* .slotm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #400080;
+    width: auto;
+    height: auto;
+    padding: 3rem;
+    border-radius: 1rem;
+    box-shadow: 0.1rem 0.1rem 1.5rem #17002e inset, -0.1rem 0.1rem 1.5rem #17002e inset, -0.1rem -0.1rem 1.5rem #17002e inset, 0.1rem -0.1rem 1.5rem #17002e inset;
+} */
+/* .sltch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #972fff;
+    padding: 0 1.8rem 1.8rem 1.8rem;
+    margin: 0 0.5rem;
+    color: #ffffff;
+    font-size: 5rem;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 0.5rem;
+    box-shadow: 0.5rem 0.5rem 1.5rem #17002e, -0.5rem 0.5rem 1.5rem #17002e, -0.5rem -0.5rem 1.5rem #17002e, 0.5rem -0.5rem 1.5rem #17002e;
+    box-shadow: 0.1rem 0.1rem 1.5rem #22053f inset, -0.1rem 0.1rem 1.5rem #22053f inset, -0.1rem -0.1rem 1.5rem #22053f inset, 0.1rem -0.1rem 1.5rem #22053f inset;
+}
+.sltch + .sltch {
+    margin: 0 0.5rem;
+}
+.sep {
+    padding: 0 0.5rem;
+}
+.trigger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+#runbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2d0059;
+    padding: 1rem;
+    margin: 2rem;
+    color: #efdfff;
+    font-size: 2rem;
+    font-weight: 500;
+    border: 0.5rem solid #2d0059;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+#runbtn:hover {
+    background-color: #efdfff;
+    color: #2d0059;
+    font-weight: 500;
+    box-shadow: 0.1rem 0.1rem 1rem #ae91cc inset, -0.1rem 0.1rem 1rem #ae91cc inset, -0.1rem -0.1rem 1rem #ae91cc inset, 0.1rem -0.1rem 1rem #ae91cc inset;
+    text-shadow: 0.1rem 0.1rem 0.1rem #2d0059, -0.1rem 0.1rem 0.1rem #2d0059, -0.1rem -0.1rem 0.1rem #2d0059, 0.1rem -0.1rem 0.1rem #2d0059;
+    transform: scale(1.03);
+}
+#chngbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #99007e;
+    padding: 1rem;
+    margin: 2rem;
+    color: #ffd5f8;
+    font-size: 2rem;
+    font-weight: 500;
+    border: 0.5rem solid #99007e;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+#chngbtn:hover {
+    background-color: #ffd5f8;
+    color: #99007e;
+    font-weight: 500;
+    box-shadow: 0.1rem 0.1rem 1rem #d495ad inset, -0.1rem 0.1rem 1rem #d495ad inset, -0.1rem -0.1rem 1rem #d495ad inset, 0.1rem -0.1rem 1rem #d495ad inset;
+    text-shadow: 0.1rem 0.1rem 0.1rem #99007e, -0.1rem 0.1rem 0.1rem #99007e, -0.1rem -0.1rem 0.1rem #99007e, 0.1rem -0.1rem 0.1rem #99007e;
+    transform: scale(1.03);
+} */
+
+.prizedtl {
+    background-color: mediumpurple;
+    width: 20%;
+    height: 50rem;
+    padding: 1rem;
+}
+.footr {
+    background-color: var(--theme-dark);
+    min-height: 5vh;
+}
+
+
+
+
+/* Media queries */
+@media (max-width: 1024px) {
+    .header {
+        height: 8rem;
+    }
+    .rcontainer {
+        flex-direction: column;
+        align-items: center;
+    }
+    .sidecanvas, .prizedtl {
+        flex-direction: row;
+        width: 80%;
+        height: 30rem;
+    }
+    .postera, .posterb {
+        width: 40rem;
+        height: 30rem;
+    }
+    .postera img, .posterb img {
+        width: 100%;
+        height: 100%;
+    }
+    .maindv {
+        width: 80%;
+        min-height: 60rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        flex-flow: column;
+        height: 6rem;
+    }
+    .smlgo, .selgo {
+        width: 12rem;
+    }
+    .smlgo img, .selgo img {
+        width: 80%;
+    }
+    .rcontainer {
+        flex-direction: column;
+    }
+    .sidecanvas {
+        flex-direction: row;
+        width: 96%;
+        height: 20rem;
+    }
+    .postera, .posterb {
+        width: 80%;
+        height: 20rem;
+    }
+    .postera img, .posterb img {
+        width: 100%;
+        height: 100%;
+    }
+    .maindv, .prizedtl {
+        width: 96%;
+    }
+}
+
+@media (max-width: 425px) {
+    .sidecanvas {
+        flex-direction: column;
+        width: 100%;
+        height: 15rem;
+    }
+    .postera {
+        width: 100%;
+        height: 15rem;
+    }
+    .postera img {
+        width: 100%;
+        height: 100%;
+    }
+    .posterb {
+        display: none;
+    }
+    .maindv, .prizedtl {
+        width: 100%;
+    }
+}

@@ -1,0 +1,80 @@
+
+:root {
+  --theme: #fe6a07;
+  --theme-light: #feaf7a;
+  --theme-dark: #682900;
+  --white: #fff3ec;
+  --black: #130700;
+  --radi-grad: radial-gradient(circle, #d5eaff 10%, #ddcdfe 100%);
+}
+
+.topper {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-color: var(--black);
+    padding: 0.5rem 3.5rem;
+    font-size: 1.5rem;
+}
+.tollfree .tinf {
+  color: var(--theme);
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: overline;
+}
+.tollfree .navlnk {
+  color: var(--theme-light);
+  font-style: oblique;
+}
+.topper .navlnk:hover {
+  color: var(--theme-light);
+  font-style: normal;
+}
+.wrapper {
+    background-image: var(--radi-grad);
+}
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  height: 10rem;
+  padding: 1rem 2rem 2rem 2rem;
+}
+.smlogo img {
+  width: 40%;
+}
+.brndlbl img {
+  width: 20%;
+}
+.sellogo img {
+  width: 100%;
+}
+.container {
+  min-height: 70vh;
+  padding: 3rem 10rem;
+}
+.footer {
+  background-color: var(--theme-dark);
+  min-height: 10vh;
+}
+
+
+
+
+@media (max-width: 1024px) {
+  .header {
+    height: 8rem;
+  }
+  .container {
+    padding: 3rem 5rem;
+  }
+}
+  
+@media (max-width: 768px) {
+  .header {
+    height: 6rem;
+  }
+  .container {
+    padding: 3rem 0.5rem;
+  }
+}

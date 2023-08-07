@@ -1,0 +1,78 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 50vh;
+    padding: 2rem;
+}
+.accreate {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+    flex-flow: row wrap;
+    padding: 2rem;
+}
+.frmhead {
+    width: 100%;
+    padding: 3rem;
+    font-size: 4.5rem;
+    font-weight: 100;
+    letter-spacing: 1rem;
+    text-align: center;
+}
+.accfrm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 3rem;
+}
+.frm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+    padding: 1rem;
+}
+.frmgrp {
+    font-size: 2rem;
+}
+.frmgrp label {
+    color: var(--theme-dark);
+}
+.frmgrp input[type='submit'] {
+    background-color: var(--theme);
+    padding: 1rem 2rem;
+    color: var(--white);
+    font-size: 2.5rem;
+    font-weight: bold;
+    border: none;
+    border-left: 0.4rem solid var(--theme);
+    border-right: 0.4rem solid var(--theme);
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.1s linear 0.01s;
+}
+.frmgrp input[type='submit']:hover {
+    /* background-color: var(--white); */
+    background-image: radial-gradient(circle, var(--white) 1%, var(--theme-light) 100%);
+    color: var(--theme);
+}
+.substatus {}
+
+
+
+
+@media(max-width: 1024px) {
+    .frmhead {
+        font-size: 4rem;
+    }
+}
+@media(max-width: 768px) {
+    .frmhead {
+        font-size: 3rem;
+    }
+}

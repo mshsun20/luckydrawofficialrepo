@@ -1,0 +1,33 @@
+/* 
+.ticket {
+    display: flex;
+    justify-content: flex-start;
+    align-items: first baseline;
+    flex-direction: column;
+    background-color: #e180a8;
+    min-height: 50vh;
+    padding: 2rem;
+}
+.heading {
+    width: 90%;
+    padding: 1rem;
+}
+.info {
+    width: 90%;
+    padding: 1rem;
+}
+.list {
+    width: 90%;
+    padding: 1rem;
+    overflow-x: auto;
+}
+table {
+    width: 96%;
+}
+th {
+    padding: 1rem;
+}
+td {
+    padding: 1rem;
+    text-align: center;
+} */

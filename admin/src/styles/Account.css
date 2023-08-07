@@ -1,0 +1,80 @@
+
+.account {
+    display: flex;
+    justify-content: flex-start;
+    align-items: first baseline;
+    flex-flow: row wrap;
+    gap: 1rem;
+    background-color: #d8f1df;
+    min-height: 60vh;
+    padding: 1rem;
+    /* overflow-x: auto; */
+}
+.acchdng {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white);
+    width: 98%;
+    padding: 3rem 1%;
+    color: #1a6c30;
+    font-size: 5rem;
+    font-weight: 100;
+    letter-spacing: 2rem;
+}
+.accinf {
+    background-color: var(--white);
+    padding: 1rem;
+}
+.accadd {
+    display: flex;
+    justify-content: flex-start;
+    gap: 2rem;
+    padding: 1rem;
+}
+.acclst {
+    display: flex;
+    justify-content: flex-start;
+    align-items: first baseline;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: var(--white);
+    padding: 1rem;
+    overflow-x: auto;
+}
+.addbtn {
+    background-color: transparent;
+    font-size: 2.5rem;
+    color: #5118b8;
+    border: none;
+    border-radius: 0.2rem;
+}
+.acctbl {
+    border-collapse: collapse;
+}
+.acctbl, .acctbl th, .acctbl td {
+    border: 0.1rem solid #5db675;
+}
+.acctbl th {
+    background-color: #44975a;
+    padding: 0.5rem;
+    text-align: center;
+}
+.acctbl td {
+    padding: 0.5rem;
+    text-align: center;
+}
+.edtbtn {
+    background-color: transparent;
+    font-size: 2.5rem;
+    color: #b5801e;
+    border: none;
+    border-radius: 0.2rem;
+}
+.dltbtn {
+    background-color: transparent;
+    font-size: 2.5rem;
+    color: #c51010;
+    border: none;
+    border-radius: 0.2rem;
+}
